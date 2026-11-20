@@ -1,0 +1,28 @@
+{
+  "name": "cantina-da-escola",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cantina da Escola: pedido pelo celular, acompanhamento pela senha e painel da atendente.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "api": "node server/dev.js",
+    "db:criar": "node database/criar-banco.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.11.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  },
+  "engines": {
+    "node": ">=20.12"
+  }
+}
